@@ -25,19 +25,6 @@ class ui_windows(QMainWindow):
         self.ui.call_logo.setStyleSheet('''
         image: url(resources/vector.png);
         ''')
-
-        # self.meds = {
-        #     0: ["1. Blprophene", "35", "2-2-2"],
-        #     1: ["2. Blprophene", "35", "2-2-2"],
-        #     2: ["3. Blprophene", "35", "1-1-1"],
-        #     3: ["4. Blprophene", "35", "2-2-2"]
-        # }
-
-        # for i in self.meds:
-        #     for n in range(3):
-        #         self.ui.meds_gridlayout.addWidget(self.qlabel(self.meds[i][n]), i,n)
-        
-        # self.ui.ok_btn.clicked.connect(self.api_try)
     
     def keyPressEvent(self, event):
         key = event.key()
